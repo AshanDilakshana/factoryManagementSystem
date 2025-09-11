@@ -6,6 +6,7 @@ import jsPDF from "jspdf";
 import "jspdf-autotable"; // Ensure correct import
 import moment from "moment";
 import "./SalesOrder.css";
+import CusSwal from '../TEST/Utils/CustomSwal/CusSwal';
 
 const { Option } = Select;
 
@@ -102,6 +103,7 @@ const SalesOrder = () => {
     };
 
     const handleDelete = async (id) => {
+        CusSwal.deleteConfiramation(async () => {
         try {
             await axios.delete(`http://localhost:3001/SalesOrder_delete/${id}`);
             const updatedOrders = orders.filter(order => order._id !== id);
@@ -110,6 +112,7 @@ const SalesOrder = () => {
         } catch (error) {
             console.error("Error deleting order:", error);
         }
+    });
     };
 
     const generatePDF = () => {

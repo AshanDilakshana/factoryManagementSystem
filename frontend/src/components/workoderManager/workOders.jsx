@@ -138,7 +138,7 @@ const [machineNames, setMachineNames] = useState([]);
     });
   };
 
-  // *** Added: Function to fetch Order_IDs from SalesOrder ***
+  //  Function to fetch Order_IDs from SalesOr
 const fetchOrderIds = async () => {
   try {
     const response = await axios.get('http://localhost:3001/SalesOrder');
@@ -150,7 +150,7 @@ const fetchOrderIds = async () => {
   }
 };
 
-// *** Added: Function to fetch machine_name values ***
+// Function to fetch machine_name values 
 const fetchMachineNames = async () => {
   try {
     const response = await axios.get('http://localhost:3001/machine');
@@ -413,24 +413,24 @@ const fetchMachineNames = async () => {
               {validationErrors.work_order_Id && <div className="text-danger">{validationErrors.work_order_Id}</div>}
             </FormGroup>
 
-{/* *** Modified: Changed machine input to dropdown *** */}
-<FormGroup>
-  <Label for="machine">Machine</Label>
-  <Input
-    type="select"
-    name="machine"
-    id="machine"
-    value={currentWorkOrder.machine || ''}
-    onChange={handleInputChange}
-    invalid={!!validationErrors.machine}
-  >
-    <option value="">Select Machine</option>
-    {machineNames.map((machineName, index) => (
-      <option key={index} value={machineName}>{machineName}</option>
-    ))}
-  </Input>
-  {validationErrors.machine && <div className="text-danger">{validationErrors.machine}</div>}
-</FormGroup>
+
+            <FormGroup>
+              <Label for="machine">Machine</Label>
+              <Input
+                type="select"
+                name="machine"
+                id="machine"
+                value={currentWorkOrder.machine || ''}
+                onChange={handleInputChange}
+                invalid={!!validationErrors.machine}
+              >
+                <option value="">Select Machine</option>
+                {machineNames.map((machineName, index) => (
+                  <option key={index} value={machineName}>{machineName}</option>
+                ))}
+              </Input>
+              {validationErrors.machine && <div className="text-danger">{validationErrors.machine}</div>}
+            </FormGroup>
 
             <FormGroup>
               <Label for="product">Product</Label>
