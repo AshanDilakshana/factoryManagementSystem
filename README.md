@@ -110,27 +110,27 @@ factory-management-system/
 
 ### Production & Work Orders
 - **Dashboard – Production & Work Orders**  
-  ![Production & Work Orders Dashboard](./FRONEND/public/a3.png)
+  ![Production & Work Orders Dashboard](./frontend/public/a3.png)
 
 - **Work Order – Status Update**  
-  ![Work Order Status Update](./FRONEND/public/a4.png)
+  ![Work Order Status Update](./frontend/public/a4.png)
 
 - **Summary Report (PDF preview)**  
-  ![Summary Report PDF](./FRONEND/public/apdf.png)
+  ![Summary Report PDF](./frontend/public/apdf.png)
 
 ### Sales & Orders
 - **Sales & Order Management**  
-  ![Sales & Order Management](./FRONEND/public/as1.png)
+  ![Sales & Order Management](./frontend/public/as1.png)
 
 - **Manager Login (Sales module)**  
-  ![Manager Login – Sales](./FRONEND/public/as2.png)
+  ![Manager Login – Sales](./frontend/public/as2.png)
 
 ### Inventory & People/Assets
 - **Inventory & Raw Material Management**  
-  ![Inventory & Raw Material Management](./FRONEND/public/c1.png)
+  ![Inventory & Raw Material Management](./frontend/public/c1.png)
 
 - **Machine Management**  
-  ![Machine Management](./FRONEND/public/t2.png)
+  ![Machine Management](./frontend/public/t2.png)
 
 - **Employee Management**  
   ![Employee Management](./FRONEND/public/t1.png)
