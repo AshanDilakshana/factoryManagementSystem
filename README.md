@@ -133,7 +133,7 @@ factory-management-system/
   ![Machine Management](./frontend/public/t2.png)
 
 - **Employee Management**  
-  ![Employee Management](./FRONEND/public/t1.png)
+  ![Employee Management](./frontend/public/t1.png)
 
 ## Contributing
 
