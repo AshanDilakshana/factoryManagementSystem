@@ -103,10 +103,10 @@ factory-management-system/
 
 ### Welcome & Access
 - **Welcome Page**  
-  ![Welcome Page](./FRONEND/public/a1.png)
+  ![Welcome Page](./frontend/public/a1.png)
 
 - **Manager Login**  
-  ![Manager Login](./FRONEND/public/a2.png)
+  ![Manager Login](./frontend/public/a2.png)
 
 ### Production & Work Orders
 - **Dashboard – Production & Work Orders**  
